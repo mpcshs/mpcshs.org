@@ -85,7 +85,7 @@ const MeetingInfo = () => {
                   <h3 className="text-xl font-semibold text-green-400">Location</h3>
                 </div>
                 <p className="text-gray-300">
-                  Room 205 - LA Building, Myers Park High School
+                  Room 208 - LA Building, Myers Park High School
                 </p>
               </motion.div>
 
