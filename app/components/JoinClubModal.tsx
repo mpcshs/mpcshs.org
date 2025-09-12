@@ -60,7 +60,7 @@ const JoinClubModal = ({ isOpen, onClose }: JoinClubModalProps) => {
 
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLScZpRgg0M54iwI0iA8fcXn-LxQWhDYf3DSf5wt7F-OIu4vpfQ/viewform?usp=dialog"
-            className="w-full h-[600px] border-0 rounded-b-lg"
+            className="w-full h-[600px] border-0 rounded-b-lg invert"
             onLoad={handleIframeLoad}
             title="CSHS Join Application"
             allow="autoplay"
