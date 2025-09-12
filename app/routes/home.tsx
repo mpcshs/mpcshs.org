@@ -24,7 +24,7 @@ const Index = () => {
   const newsItems = [
     {
       title: "Stampede!",
-      date: "TBD",
+      date: "09-12-2025",
       content: "Stampede is an opportunity for students to visit the club leadership, to get to know the club, and to ask any questions they may have.",
       type: "Event"
     },
