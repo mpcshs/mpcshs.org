@@ -1,9 +1,10 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, Clock, MapPin, Users, Presentation, Download } from 'lucide-react';
+import { Calendar, Clock, MapPin, Users, Presentation, Download, ExternalLink } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import { Link } from 'react-router';
 
 const MeetingInfo = () => {
   const upcomingMeetings = [
@@ -34,7 +35,7 @@ const MeetingInfo = () => {
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       <Navigation />
-      
+
       <div className="pt-16">
         {/* Header Section */}
         <section className="py-20 bg-gradient-to-br from-green-900/20 to-gray-900/40">
@@ -217,7 +218,7 @@ const MeetingInfo = () => {
         </section> */}
 
         {/* Slideshow Section */}
-        {/* <section className="py-16 bg-gray-800/30">
+        <section className="py-16 bg-gray-800/30">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -241,16 +242,18 @@ const MeetingInfo = () => {
                 <Presentation className="h-16 w-16 text-green-400 mx-auto mb-6" />
                 <h3 className="text-2xl font-semibold text-white mb-4">Latest Presentation</h3>
                 <p className="text-gray-300 mb-6">
-                  Software/Web Development Unit - Session 2
+                  App Pitch & Prototyping - 11-20-25
                 </p>
-                <button className="bg-green-500/20 hover:bg-green-500/30 border border-green-500/30 text-green-400 py-3 px-6 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center mx-auto">
-                  <Download className="h-5 w-5 mr-2" />
-                  Download Slideshow
-                </button>
+                <a href="/slideshows/11-20-25/index.html" target="_blank">
+                  <button className="bg-green-500/20 hover:bg-green-500/30 border border-green-500/30 text-green-400 py-3 px-6 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center mx-auto">
+                    <ExternalLink className="h-5 w-5 mr-2" />
+                    Open Slideshow
+                  </button>
+                </a>
               </div>
             </motion.div>
           </div>
-        </section> */}
+        </section>
       </div>
 
       <Footer />
