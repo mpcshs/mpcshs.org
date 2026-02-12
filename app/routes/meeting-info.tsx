@@ -244,7 +244,7 @@ const MeetingInfo = () => {
                 <p className="text-gray-300 mb-6">
                 Python Brews - 12-11-25
                 </p>
-                <a href="/slideshows/12-11-25/index.html" target="_blank">
+                <a href="/slideshows/02-12-26/index.html" target="_blank">
                   <button className="bg-green-500/20 hover:bg-green-500/30 border border-green-500/30 text-green-400 py-3 px-6 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center mx-auto">
                     <ExternalLink className="h-5 w-5 mr-2" />
                     Open Slideshow
