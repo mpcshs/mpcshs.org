@@ -242,7 +242,7 @@ const MeetingInfo = () => {
                 <Presentation className="h-16 w-16 text-green-400 mx-auto mb-6" />
                 <h3 className="text-2xl font-semibold text-white mb-4">Latest Presentation</h3>
                 <p className="text-gray-300 mb-6">
-                Python Brews - 12-11-25
+                  Intro to CyberSecurity and Python - 02-12-26
                 </p>
                 <a href="/slideshows/02-12-26/index.html" target="_blank">
                   <button className="bg-green-500/20 hover:bg-green-500/30 border border-green-500/30 text-green-400 py-3 px-6 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center mx-auto">
